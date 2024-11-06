@@ -18,19 +18,18 @@ Ce projet est un générateur de mot de passe simple développé en PHP et HTML,
 
 ```bash
 git clone https://github.com/Kertie2/Password-Generator.git
-```bash
-
+```
 3. Accédez au fichier via votre navigateur à l’adresse suivante :
 
 ## Sur un serveur Locale (sans modification)
 ```http
 http://127.0.0.1/public_html/index.php
-```http
+```
 
 ## Sur un serveur Publique (index.php placé dans la racine du serveur web)
 ```http
 http://ip-adress/index.php
-```http
+```
 
 ## Utilisation
 
@@ -49,7 +48,7 @@ function generatePassword($length, $include_special) {
     if ($include_special) {
         $characters .= '!@#$%^&*()-_=+<>?';
     }
-```php
+```
 
 ## Capture d'Écran
 
